@@ -1,0 +1,15 @@
+Namespace FizzBuzz
+{
+    public class FizzBuzz
+    {
+        public string CheckIt(int num)
+        {
+            string retval="";
+            if (num%3 == 0)
+                retval += "fizz";
+            if (num%5 == 0)
+                retval += "buzz";
+            return retval;
+        }
+    }
+}
